@@ -1,0 +1,13 @@
+import openai
+
+openai.api_key = "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"
+
+try:
+    completion = openai.Completion.create(
+        model="text-davinci-003",
+        prompt="what is generative ai",
+        max_tokens=200
+    )
+    print(completion['choices'][0]['text'])
+except openai.error.RateLimitError as e:
+    print(f"RateLimitError: {e}")
