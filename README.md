@@ -1,4 +1,4 @@
-# chatgpt-3.5-clone
+# chatgpt-3.5
 # Marwin: the Chatbot
 
 Hey LinkedIn fam! Excited to share the evolution of my chatbot project, Marwin! 🤖
